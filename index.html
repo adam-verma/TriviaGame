@@ -5,18 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Trivia Game</title>
 </head>
 <body>
+    <div class = "jumbotron">Food Trivia Game</div> 
 
-    <div class = "container">
-        <div class = "row homepage">
-            <div class = "col-sm-12">
-                <img />
-            </div>
-            <button id="button">Begin</button>
-        </div>
+    <button id="start-button">Begin!</button>
+    <div id="displayTimer"></div>
 
+    <div class = "question">What is an Indian dish but the national dish of England?</div>
+
+    <form >
+        <input type="button" class="option" value="false">Saag Paneer 
+        <input type="button" class="option" value="false">Masala Wok
+        <input type="button" class="option" value="true">Chicken Tikka Masala
+        <input type="button" class="option" value="false">Chicken Biryani
+    </form>
+    
+    <div class = "question">What is the most ordered food in America?</div>
+    <form >
+            <input type="button" class="option" value="false">Burgers
+            <input type="button" class="option" value="true">Fried Chicken
+            <input type="button" class="option" value="false">Pizza
+            <input type="button" class="option" value="false">Salad
+    </form>
+    <br>
+
+    <div class = "question">What is the ice cream capital of the world?</div>
+    <form >
+            <input type="button" class="option" value="false">California
+            <input type="button" class="option" value="false">New Hampshire
+            <input type="button" class="option" value="false">Wisconsin
+            <input type="button" class="option" value="true">Iowa 
+    </form>
+
+    <div class = "question">What kind of food is Peru most known for?</div>
+
+    <!-- inside each form, the value of the false answer is set to "false" -->
+    <form>
+        <input type="button" class="option" value="true">Ceviche and Fried Guinea Pig
+        <input type="button" class="option" value="false">Goulash
+        <input type="button" class="option" value="false">Chicharron
+        <input type="button" class="option" value="false">Churros
+    </form>
+
+    <br>
+
+    <div class = "question">Which country does the Acai berry come from?</div>
+
+    <form >
+        <input type="button" class="option" value="false">Morocco
+        <input type="button" class="option" value="true">Brazil 
+        <input type="button" class="option" value="false">Peru
+        <input type="button" class="option" value="false">Argentina
+    </form>
+    <br>
+
+    <div class = "question">What is Texas' state dish?</div>
+
+    <form >
+        <input type="button" class="option" value="true">Chili con carne
+        <input type="button" class="option" value="false">Chicken fried steak
+        <input type="button" class="option" value="false">Pork ribs
+        <input type="button" class="option" value="false">Kolaches 
+    </form>
+
+    <br>
+w
+    <div class = "question">Where is popcorn the official snack food?</div>
+
+    <form >
+        <input type="button" class="option" value="false">Washington
+        <input type="button" class="option" value="false">Ohio
+        <input type="button" class="option" value="false">Texas 
+        <input type="button" class="option" value="true">Illinois
+    </form>
+    <br>
+
+    <div class = "question">What is the official fruit of New York?</div>
+
+    <form >
+        <input type="button" class="option" value="false">Banana
+        <input type="button" class="option" value="false">Pear
+        <input type="button" class="option" value="true">Apple
+        <input type="button" class="option" value="false">Strawberry
+    </form>
+    
+    <br>
+
+    <div class = "question">In 2014, a criminal gang in China used rongalite to flood the market with which contaminated food?</div>
+
+    <form >
+        <input type="button" class="option" value="false">Tofu 
+        <input type="button" class="option" value="false">Jasmine Rice
+        <input type="button" class="option" value="false">Pork
+        <input type="button" class="option" value="false">Green beans
+    </form>
+    
+    <br>
+
+    <div class = "question">Who are the first people to have consumed chocolate?</div>
+
+    <form >
+        <input type="button" class="option" value="false">Mayans
+        <input type="button" class="option" value="true">Olmecs
+        <input type="button" class="option" value="false">Babylonians
+        <input type="button" class="option" value="false">Mesopotamians
+    </form>
+    
+    <br>    
+
+    <button class="button" id = "submit-button">Press to Check Results!</button>
+    <button id = "reset">Play Again?</button>
     </div>
     <!-- jQuery and JS links -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
